@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MyComponent from './MyComponent';
 
-//code snippet rcc - react class component
-
-class App extends Component {
-  render() {
-    const name = 'react';
-    return <div>{name}</div>;
-  }
-}
+const App = () => {
+  return <MyComponent/>;
+};
 
 export default App;
